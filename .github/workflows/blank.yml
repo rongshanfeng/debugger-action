@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: bulid
-      uses: p3terx/debugger-action@master
+      uses: csexton/debugger-action@master
