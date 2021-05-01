@@ -1,8 +1,8 @@
 name: CI
-on: push
+on: workflow_dispatch
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
     steps:
     - name: bulid
-      uses: csexton/debugger-action@master
+      uses: roongshanfeng/debugger-action@master
